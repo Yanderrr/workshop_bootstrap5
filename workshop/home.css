@@ -1,0 +1,125 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+:root{
+    /* colors */
+    --royal-blue: #2405F2;
+    --tint-blue: #1C1E53;
+    --dark-blue: #282938;
+    --main-yellow: #FCD980;
+    --main-gray: #F4F6FC;
+    --accent: #EEF4FA;
+    --main-btn-bg: #FCD980;
+    --main-btn-hoverd:#FDE4A6;
+    --secondary-btn-bg: #282938;
+    --secondary-btn-hoverd: #535460;
+
+
+    /* typography */
+    --main-font-family: 'Poppins', sans-serif; ;
+}
+/* resets */
+*{
+    box-sizing: border-box;
+    transition: 500ms linear;
+}
+h1{
+    font-size: 3.375rem;
+    color: var(--tint-blue);
+}
+h2, h3{
+    color: var(--tint-blue);
+}
+p{
+    font-size: 1rem;
+    color: var(--secondary-btn-hoverd);
+}
+nav {
+    background-color: var(--tint-blue);
+}
+header {
+    background-color: var(--tint-blue);
+    height: 70vh;
+}
+.navbar-brand {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+.nav-link {
+    color: #fff;
+    font-size: 1rem;
+}
+nav button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    padding: 12px 40px;
+    color: #fff;
+    border-radius: 50px;
+}
+.main-header {
+    padding-top: 10%;
+}
+.main-header .container .row h1 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.main-header .container .row p {
+    color: var(--secondary-btn-hoverd);
+    margin-bottom: 40px;
+}
+.main-header .container .row a  {
+    background-color: var(--main-btn-bg);
+    color: #000;
+    padding: 12px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.main-header .container .row .btn-2 {
+    background-color: transparent;
+    color: #fff;
+}
+.services {
+    margin-top: 5%;
+}
+.services .container .row .boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.features {
+    margin-top: 10%;
+}
+.features .container .row h1 {
+    text-align: center;
+}
+.features .container .row .boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+.review {
+    margin-top: 10%;
+}
+.form {
+    margin-top: 10%;
+}
+.blog {
+    margin-top: 10%;
+}
+footer {
+    margin-top: 10%;
+    background-color: var(--tint-blue);
+    padding: 20px;
+}
+footer .container .row h1 {
+    color: #fff;
+}
+footer .container .row p {
+    color: var(--main-gray);
+}
+
+
